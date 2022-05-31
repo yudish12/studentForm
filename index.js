@@ -51,7 +51,7 @@ submit.addEventListener("click",()=>{
     Html += `<div class="empty"></div>
     <div class="card">
     <div class="img">
-        <img src="./image-preview-icon-picture-placeholder-vector-31284806.png" alt="" srcset="" height="150px" width="150px">
+        <img src="${src.value}" alt="" srcset="" height="150px" width="150px">
     </div>
 <div class="description">
 <h2>Description</h2>
