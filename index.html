@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Student Enrollment Form</title>
+</head>
+<body>
+ <h1>Sample</h1>
+ <div class="form">
+     <h2>Student Enrollment Form</h2>
+ </div>
+ <!-- main form -->
+ <div class="container">
+ <div class="formContent">
+     <div class="align">
+     <label for="Name">
+         Name
+     </label>
+     <input type="text" id="Name" class="txt"><br>
+    </div>
+    <div class="align">
+    <label for="Mail">
+        Email
+    </label>
+    <input type="email" id="Mail" class="txt"><br>
+</div>
+<div class="align">    
+<label for="Website">
+        Website
+    </label>
+    <input type="text" id="Website" class="txt"><br>
+</div>
+<div class="align">    
+<label for="imglink">
+        Image Link
+    </label>
+    <input type="text" id="imglink" class="txt"><br>
+</div>
+<div class="remForm">
+    <label id="GEn">
+        Gender--
+    </label>
+    <label for="gender" id="male">Male</label>
+    <input type="radio" id="gender" value="male" name="gen">
+    <label for="gender2" id="female">Female</label>
+   <input type="radio" id="gender2" value="female" name="gen"><br>
+    <input type="checkbox" id="js" name="vehicle1" value="Bike">
+  <label for="js" id="cb1"> JavaScript</label>
+  <input type="checkbox" id="html" name="vehicle2" value="Car">
+  <label for="html" id="cb2"> HTML</label>
+  <input type="checkbox" id="css" name="vehicle3" value="Boat">
+  <label for="css" id="cb3"> CSS</label><br>
+  <button type="submit" class="button1">Submit</button>
+  <button type="reset" class="button2">Reset</button>
+</div>
+ </div>
+<div class="enrolled">
+    <div class="card">
+        <div class="img">
+            <img src="./image-preview-icon-picture-placeholder-vector-31284806.png" alt="" srcset="" height="150px" width="150px">
+        </div>
+    <div class="description">
+    <h2>Description</h2>
+    <p class="desName mar">Sample Name</p>
+    <p class="desMail mar">Sample Mail ID</p>
+    <p class="desWebsite mar">Sample Website</p>
+    <p class="desGender mar">Male</p>
+    <p class="desSkills mar">JavaScript HTML CSS</p>
+</div>
+</div>
+</div>
+</div>
+</body>
+<script src="./index.js"></script>
+</html>
